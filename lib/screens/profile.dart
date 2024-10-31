@@ -3,20 +3,6 @@ import 'package:flutter/material.dart';
 import 'dart:io';
 import 'package:odoo_rpc/odoo_rpc.dart';
 
-  // main() async{
-  // print("In the main async file");
-  // final client = OdooClient("http://educationv17.odoo.com");
-  // try{
-  //   await client.authenticate("neha-klientinformatics-education-main-15796936",'admin','a');
-  //   final res = await client.callRPC('/web/session/modules','call',{});
-  //   print('$res');
-  // } on OdooException catch(e){
-  //   print(e);
-  //   client.close();
-  //   exit(-1);
-  // }
-  // }
-
 
 
 class ProfilePage extends StatefulWidget {
@@ -88,9 +74,6 @@ class _ProfilePage extends State<ProfilePage> {
               )
             ]
           )
-          // if(_selectedIndex == 0){
-          //   Center()
-          // }
         ),
         bottomNavigationBar: BottomNavigationBar(
             items: <BottomNavigationBarItem>[
